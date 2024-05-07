@@ -1,4 +1,4 @@
-*MALAYSIA'S RESTAURANT REVIEWS DATA TRANSFORMATION AND VISUALIZATION USING SQL AND GOOGLE LOOKER STUDIO*
+## MALAYSIA'S RESTAURANT REVIEWS DATA TRANSFORMATION AND VISUALIZATION USING SQL AND GOOGLE LOOKER STUDIO
 
     Project Management tool   : Atlassian Jira
     Documentation tool        : Atlassian Confluence
@@ -8,7 +8,7 @@
     Data Visualization Tool   : Google Looker Studio
 
 
-STEP 1 - PROJECT MANAGEMENT
+### STEP 1 - PROJECT MANAGEMENT
 
 From the end-to-end project roadmap as attached below, a project timeline and project board was created to facilitate task tracking for the whole project. 
 
@@ -25,28 +25,28 @@ iii. Project Board (Kanban - Tracker)
 ![image](https://github.com/nabilarahmat/data-transformation-and-visualization/assets/168509585/d1beee88-b88e-4839-87c8-be82f5804c97)
 
 
-STEP 2 - DATASOURCE
+### STEP 2 - DATASOURCE
 
     Datasource Link: https://www.kaggle.com/datasets/bwandowando/malaysian-cities-food-panda-resto-reviews
 From the link, all 18 csv files were chosen for data analysis and transformation. 
 
 
-STEP 3 - DATA ANALYSIS
+### STEP 3 - DATA ANALYSIS
 
 Data attributes & data types from all 18 csv's were identified using Microsoft Excel. Then, the Questions and Answers set were created to create a visualization dashboard. A dashboard wireframes was drafted on paper to visualize. Finally, view table format were drafted for serving data purpose.
 
 
-STEP 4 - SETUP A LOCAL DATABASE
+### STEP 4 - SETUP A LOCAL DATABASE
 
 Local database server was setup using PostgreSQL connected to DBeaver database client for table creation, data transformation and view table creation.
 
 
-STEP 5 - LOAD DATA 
+### STEP 5 - LOAD DATA 
 
 18 tables for raw data were created. Data for each csv was uploaded to each raw table.
 
 
-STEP 6 - TRANSFORM DATA
+### STEP 6 - TRANSFORM DATA
 
 SQL 'Select' scripts were designed to transform data to required state. The transformed/serving data were saved in views table. The final data were exported into csv files. The following view tables were created for serving data purposes:
 
@@ -56,7 +56,7 @@ SQL 'Select' scripts were designed to transform data to required state. The tran
     view_city.sql
 
 
-STEP 7 - DATA VISUALIZATION (DASHBOARD)
+### STEP 7 - DATA VISUALIZATION (DASHBOARD)
 
 The Google Looker Studio is chosen for data visualization dashboard due to its capability to publish the visualization report to the public. Similar dashboard can be created using Power BI and Tableau, however, it can't be shared to the public due to subscription issues. 
 
