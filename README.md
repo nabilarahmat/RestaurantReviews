@@ -27,8 +27,8 @@ iii. Project Board (Kanban - Tracker)
 
 STEP 2 - DATASOURCE
 
-Datasource Link: https://www.kaggle.com/datasets/bwandowando/malaysian-cities-food-panda-resto-reviews
-From the link above, all 18 csv files were chosen for data analysis and transformation. 
+    Datasource Link: https://www.kaggle.com/datasets/bwandowando/malaysian-cities-food-panda-resto-reviews
+From the link, all 18 csv files were chosen for data analysis and transformation. 
 
 
 STEP 3 - DATA ANALYSIS
