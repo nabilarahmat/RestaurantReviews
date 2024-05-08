@@ -28,7 +28,7 @@ iii. Project Board (Kanban - Tracker)
 
 ### STEP 2 - DATASOURCE
 
-    Datasource Link: https://www.kaggle.com/datasets/bwandowando/malaysian-cities-food-panda-resto-reviews
+Datasource Link: https://www.kaggle.com/datasets/bwandowando/malaysian-cities-food-panda-resto-reviews .
 From the link, all 18 csv files were chosen for data analysis and transformation. 
 
 
@@ -64,6 +64,7 @@ The Google Looker Studio is chosen for data visualization dashboard due to its c
 i. Malaysia's Restaurant Reviews Dashboard
 
 Looker Studio Link : https://lookerstudio.google.com/s/k-qHmMJMXFc
+
 <img width="649" alt="image" src="https://github.com/nabilarahmat/data-transformation-and-visualization/assets/168509585/91df62a1-c3ba-4e95-86a7-3eaac87afcf4">
 
 Note: Details of each steps were documented on Confluence and will be uploaded into this repo as a separate files later on.
