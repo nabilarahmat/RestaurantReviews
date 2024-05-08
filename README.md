@@ -14,7 +14,8 @@ From the end-to-end project roadmap as attached below, a project timeline and pr
 
 i. Project Roadmap
 
-![image](https://github.com/nabilarahmat/data-transformation-and-visualization/assets/168509585/debeba98-e599-41a5-96af-a438efc6d4c0)
+![image](https://github.com/nabilarahmat/data-transformation-and-visualization/assets/168509585/194934b6-52f8-4ed3-8f9a-20bb57106aca)
+
 
 ii. Project Timeline
 
@@ -62,6 +63,7 @@ The Google Looker Studio is chosen for data visualization dashboard due to its c
 
 i. Malaysia's Restaurant Reviews Dashboard
 
+Looker Studio Link : https://lookerstudio.google.com/s/k-qHmMJMXFc
 <img width="649" alt="image" src="https://github.com/nabilarahmat/data-transformation-and-visualization/assets/168509585/91df62a1-c3ba-4e95-86a7-3eaac87afcf4">
 
 Note: Details of each steps were documented on Confluence and will be uploaded into this repo as a separate files later on.
