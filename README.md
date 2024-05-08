@@ -84,4 +84,6 @@ The cleaned 4 csv files were loaded into the Cloud DB. Data for each csv was upl
 
 Setup Cloud DB connection to replace CSV files. The previous visualization dashboard was refreshed to reflect data from Cloud DB. 
 
+Looker Studio Link - https://lookerstudio.google.com/s/vsCoPiP2WMU
+
 *Note: Details of each steps were documented on Confluence and will be uploaded into this repo as a separate files later on.*
