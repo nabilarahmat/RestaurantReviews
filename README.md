@@ -63,7 +63,7 @@ SQL 'Select' scripts were designed to transform data to required state. The tran
 
 The Google Looker Studio is chosen for data visualization dashboard due to its capability to publish the visualization report to the public. The 4 cleaned csv files were loaded into Looker Studio for visualization dashboard creation. Similar dashboard can be created using Power BI and Tableau, however, it can't be shared to the public due to subscription issues. 
 
-i. Malaysia's Restaurant Reviews Dashboard
+i. Malaysia's Restaurant Reviews Interactive Dashboard
 
 Looker Studio Link : https://lookerstudio.google.com/s/k-qHmMJMXFc
 
