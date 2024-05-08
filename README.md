@@ -1,4 +1,4 @@
-## MALAYSIA'S RESTAURANT REVIEWS DATA TRANSFORMATION AND VISUALIZATION USING SQL AND GOOGLE LOOKER STUDIO
+# MALAYSIA'S RESTAURANT REVIEWS DATA TRANSFORMATION AND VISUALIZATION USING SQL AND GOOGLE LOOKER STUDIO
 
     Project Management tool   : Atlassian Jira
     Documentation tool        : Atlassian Confluence
@@ -6,7 +6,10 @@
     Database SQL Server       : PostgreSQL
     Data Transformation Tool  : DBeaver
     Data Visualization Tool   : Google Looker Studio
+    Cloud Database Server     : Google Cloud BigQuery
 
+
+## Milestone 1 - Data Dashboard on Local
 
 ### STEP 1 - PROJECT MANAGEMENT
 
@@ -14,8 +17,7 @@ From the end-to-end project roadmap as attached below, a project timeline and pr
 
 i. Project Roadmap
 
-![image](https://github.com/nabilarahmat/data-transformation-and-visualization/assets/168509585/194934b6-52f8-4ed3-8f9a-20bb57106aca)
-
+![image](https://github.com/nabilarahmat/data-transformation-and-visualization/assets/168509585/2b9a6378-7162-4e1c-b9b2-f18fe8492635)
 
 ii. Project Timeline
 
@@ -59,7 +61,7 @@ SQL 'Select' scripts were designed to transform data to required state. The tran
 
 ### STEP 7 - DATA VISUALIZATION (DASHBOARD)
 
-The Google Looker Studio is chosen for data visualization dashboard due to its capability to publish the visualization report to the public. Similar dashboard can be created using Power BI and Tableau, however, it can't be shared to the public due to subscription issues. 
+The Google Looker Studio is chosen for data visualization dashboard due to its capability to publish the visualization report to the public. The 4 cleaned csv files were loaded into Looker Studio for visualization dashboard creation. Similar dashboard can be created using Power BI and Tableau, however, it can't be shared to the public due to subscription issues. 
 
 i. Malaysia's Restaurant Reviews Dashboard
 
@@ -67,4 +69,19 @@ Looker Studio Link : https://lookerstudio.google.com/s/k-qHmMJMXFc
 
 <img width="649" alt="image" src="https://github.com/nabilarahmat/data-transformation-and-visualization/assets/168509585/91df62a1-c3ba-4e95-86a7-3eaac87afcf4">
 
-Note: Details of each steps were documented on Confluence and will be uploaded into this repo as a separate files later on.
+
+## Milestone 2 - Publish a Data Dashboard on Cloud Connected to Live DB
+
+### STEP 1 - SETUP CLOUD DB
+
+Cloud database server was setup using Google Cloud BigQuery due to its seamless integration with Google Looker Studio.
+
+### STEP 2 - LOAD DATA IN CLOUD DB
+
+The cleaned 4 csv files were loaded into the Cloud DB. Data for each csv was uploaded into respective dataset.
+
+### STEP 3 - BUILD VISUALIZATION ON CLOUD DB
+
+Setup Cloud DB connection to replace CSV files. The previous visualization dashboard was refreshed to reflect data from Cloud DB. 
+
+*Note: Details of each steps were documented on Confluence and will be uploaded into this repo as a separate files later on.*
